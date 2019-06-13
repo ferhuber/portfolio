@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Mukta+Vaani');
+
+body   { background-color: #333!important; font-family: 'Mukta Vaani', sans-serif }
+body p { padding: 2px; margin: 0 }
+h1     { font-size: 36px; line-height: 42px }
+a      {text-decoration: none!important }
+
+.double-space  { height: 100px }
+.double-space1 { height: 4vh  }
+
+.section     { overflow: hidden }
+.darker      { background-color: #333 }
+.lighter     { background-color: #fff }
+
+#About       {
+  position: relative;
+  height: auto;
+  background : url(../images/bg-fh.jpg) 100% 0 repeat fixed;
+  background-size: cover;
+}
+
+#About h2    { font-size: 6em!important }
+#About p     { font-size: 2.75em!important }
+#about-me    { height: auto; position: relative }
+#Skills      { position: relative;}
+#Portfolio   { height: auto; text-align: center; position: relative;}
+#Background  { background : url(../images/desk.jpg) 50% 0 repeat fixed  }
+#Background2 { background : url(../images/computer.jpg) 50% 0 repeat fixed }
+#Background3 { background : url(../images/computer.jpg) 50% 0 repeat fixed }
+
+.centered-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1250px;
+  height: auto;
+  margin-top: 18vh;
+  margin-bottom: 3vh;
+}
+
+.centered-wrapper p {
+  font-size: 2.75em;
+  color: rgba(255, 255, 255, 0.54) !important;
+  position: relative;
+  margin-top: 3vh;
+}
+
+.centered-contact {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1250px;
+  /*overflow: hidden;*/
+}
+
+.logo {
+  width: 90px;
+  position: absolute;
+  top: 20px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.section.darker h1 { color: #fff }
+.section.darker h2 { color: #e6ff00 }
+.section.darker p  { color: rgba(255, 255, 255, 0.5); }
+
+.section.lighter h1 { color: #333 }
+.section.lighter h2 { color: #555 }
+.section.lighter p  { color: rgba(85, 85, 85, 0.73) !important }
+
+.resume      { text-align: center; margin-bottom: 10vh }
+.arrow       { color: #e6ff00 }
+.arrow:hover { color: rgba(230, 255, 0, 0.74); transition: all 0.5s }
+
+.but {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 4%;
+  background-color: none;
+  border: 2px solid #e6ff00;
+  color: rgba(230, 255, 0, 0.5);
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.but:hover, .but:active {
+  background-color: rgba(230, 255, 0, 0.74);
+  border: 1px solid #e6ff00;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.about-me p { font-size: 1.8em; position: relative }
+
+.sites {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 95%;
+  max-width: 1196px;
+  position: relative;
+}
+.site { height: 100% }
+
+.col {
+  border-left-width: 25px!important;
+  padding: 0 0px;
+  border: 0px solid rgba(0,0,0,0);
+  float: left;
+  box-sizing: border-box;
+  background-clip: padding-box !important;
+  width: 33.3%;
+}
+
+
+.work-item {
+  max-height: 200px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+}
+
+.work-item img {
+  width: 375px;
+  max-width: 100%;
+  height: 200px;
+  border: 0;
+  vertical-align: middle;
+  border-color: rgba(230, 255, 0, 0.5);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.works { margin-bottom: 20px }
+
+.work-item:hover .work-item-inside{
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.8s ease-out, visibility 0.5s ease-out;
+}
+
+.work-item-inside {
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
+}
+
+.work-descrip {
+  padding: 5px;
+  margin: 15px;
+  color: #fff;
+}
+
+.description {
+  height: 100%;
+  display: inline-flex;
+  margin-bottom: 2%;
+}
+
+.box-desc {
+  cursor: pointer;
+  position: relative;
+}
+
+.box-desc h2 {
+  font-size: 1.3em !important;
+  line-height: 10px;
+  position: relative;
+}
+
+.box-desc p {
+  font-size: 1.2em !important;
+  text-align: justify !important;
+  font-family: 'Abel', sans-serif;
+}
+
+.code {
+  width: 100%;
+  margin-top: 5px;
+  display: inline-flex;
+  font-family: 'Abel', sans-serif;
+}
+
+.code-desc {
+  background-color: #e6ff00;
+  margin: 0 1% 0 1%;
+  padding: 1% 2% 1%;
+  border-radius: 5px;
+}
+
+.code-desc p {
+  font-size: 0.9em !important;
+  color: #333 !important;
+  font-family: 'Abel', sans-serif;
+}
+
+#navcontainer {
+  position: relative;
+  padding-right: 10%;
+}
+
+#navlist2 {
+  list-style-type:none;
+  display:flex !important;
+  justify-content: center !important;
+  position: relative;
+}
+
+#navlist2 li {
+  display: list-item !important;
+  list-style-type: none;
+  position: relative;
+  background-color: #e6ff00;
+  margin: 0 1% 0 1%;
+  padding: 1% 2% 1%;
+  border-radius: 5px;
+}
+
+.portfolio {
+  margin-top: 24vh;
+  z-index: 0;
+  position: relative!important;
+}
+
+.portfolio a:hover {
+  color: rgba(230, 255, 0, 0.74);
+  text-decoration: none;
+  transition: all 0.5s
+}
+
+.front      { position: relative; border-top: 5vh }
+.front-end  { height: 8vh; margin: auto 10px auto 10px }
+.front-end1 { height: 8vh; margin: auto -28px auto -20px }
+.front-end2 { height: 8vh; margin: auto -5px auto -5px }
+.back-end   { height: 8vh; margin: 20px 20px auto 20px }
+.back-end1  { height: 8vh; margin-top: 16px }
+.back-end2  { height: 10vh; margin-bottom: -30px }
+
+.me {
+  width: 168px;
+  border-radius: 200px;
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.box-contact { padding: 25px }
+
+.fa, .fa:hover {
+  margin: auto 2% auto 2%;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.github   { color: rgba(85, 85, 85, 0.73) }
+.linkedin { color: rgba(85, 85, 85, 0.73) }
+.social   { color: rgba(85, 85, 85, 0.73) }
+.skype    { color: rgba(85, 85, 85, 0.73) }
+
+.github:hover   { color: #6e5494 }
+.linkedin:hover { color: rgb(0, 123, 182) }
+.social:hover   { color: #ecc03c }
+.skype:hover    { color: #00aff0 }
+
+.menu-icon {
+  display:none;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background:url(https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/menu-24-32.png) left top no-repeat;
+  background-size:100%;
+  right: 0px;
+  top:40px;
+  cursor:pointer;
+}
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-size: 13px;
+}
+
+#footer p { padding: 24px 0; font-weight: 400 }
+
+.f1 { text-align: center; width: 95% }
+/*.top{ float: right; width: 5%; padding-top: 16px }*/
+
+.top {
+  position: fixed;
+  text-align: right!important;
+  z-index: 999;
+  margin-top: 95vh;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 12px;
+  margin-right: -20px!important;
+}
+
+/*                  Screen Settings                */
+
+@media (max-width:319px) {
+  h1 { font-size: 1.5em!important}
+  .centered-wrapper   {
+    width: 94% !important;
+    height: auto;
+    margin-top: 4vh
+  }
+  .centered-wrapper p {
+    font-size: 1em!important
+  }
+
+  #About        { height: auto; z-index: 0 !important}
+  #About h2     { font-size: 1.5em!important;margin-top: 20% }
+  #About p      { font-size: 1em!important }
+  #about-me     { height: 15vh!important}
+  #about-me p   { font-size: 1em!important }
+  #Skills       { height: auto!important}
+  #Portfolio    { height: inherit }
+
+  .logo         { width: 40px }
+  .me           { width: 132px }
+  .about-me p   { font-size: 0.75em!important }
+  .double-space { display: none;}
+  .front-end    { height: 4vh; margin: auto 10px auto 10px }
+  .front-end1   { height: 4vh; margin: auto -20px auto -17px }
+  .front-end2   { height: 4vh; margin: auto -5px auto -5px }
+  .back-end     { height: 4vh; margin: 10px 2px auto 2px }
+  .back-end1    { height: 4vh; margin-right: -4px }
+  .back-end2    { height: 9vh; margin: auto 0 -21px -5px }
+  .col          { width: 94% }
+  .top          { display: none }
+  .me           { width: 132px }
+  .fa-5x        { font-size: 4em!important }
+  .git          { display: none }
+
+}
+
+@media (min-width:320px) and (max-width:479px) {
+  h1 { font-size: 1.5em!important}
+  .centered-wrapper   {
+    width: 94% !important;
+    height: auto;
+    margin-top: 2vh
+  }
+  .centered-wrapper p {
+    font-size: 1em!important
+  }
+
+  #About        { height: auto; z-index: 0 !important}
+  #About h2     { font-size: 2em!important;margin-top: 20% }
+  #About p      { font-size: 1.15em!important }
+  #about-me     { height: auto!important}
+  #about-me p   { font-size: 1.2em!important }
+  #Skills       { height: auto!important}
+  #Portfolio    { height: auto }
+  #toggle       { display: none }
+
+  .logo         { width: 40px }
+  .me           { width: 132px }
+  .about-me p   { font-size: 1em!important }
+  .double-space { display: none }
+  .front        { margin-left: -17px }
+  .front-end    { height: 4vh; margin: auto 10px auto 10px }
+  .front-end1   { height: 4vh; margin: auto -20px auto -17px }
+  .front-end2   { height: 4vh; margin: auto -5px auto -5px }
+  .back-end     { height: 4vh; margin: 10px 6px auto 6px }
+  .back-end1    { height: 4vh; margin-right: 0; margin-left: 8px}
+  .back-end2    { height: 9vh; margin: auto 0 -21px -5px }
+  .col          { width: 94% }
+  .top          { display: none }
+  .me           { width: 120px }
+  .fa-5x        { font-size: 4em!important }
+  .git          { display: none }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+
+  h1 { font-size: 1.5em!important}
+
+  .centered-wrapper {
+    width: 96% !important;
+    height: auto;
+    margin-top: 6vh
+  }
+
+  .centered-wrapper p { font-size: 1.25em!important }
+  .logo               { width: 50px }
+  #About              { height: auto }
+  #About h2           { font-size: 4.25em!important;margin-top: 12% }
+  #About p            { font-size: 1.75em!important }
+  #Portfolio          { height: inherit }
+  .me                 { width: 132px }
+  .about-me p         { font-size: 1.2em!important }
+  .double-space       { display: none }
+  .front-end          { height: 5vh; margin: auto 10px auto 10px }
+  .front-end1         { height: 5vh; margin: auto -20px auto -17px }
+  .front-end2         { height: 5vh; margin: auto -5px auto -5px }
+  .back-end           { height: 5vh; margin: 10px 2px auto 2px }
+  .back-end1          { height: 5vh; margin-right: -4px }
+  .back-end2          { height: 9vh; margin: auto 0 -21px -5px }
+  .resume             { margin-bottom: 5vh }
+  .col                { width: 47% }
+  .top                { display: none }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  #About h2           { font-size: 5em!important; margin-top: 20vh}
+  #About p            { font-size: 2.5em!important }
+  #about-me           { height: auto!important}
+  #Portfolio          { height: inherit }
+  .centered-wrapper   { width: 96% !important;     margin-top: 4vh }
+  .centered-wrapper p { font-size: 1.2em!important }
+  .double-space       { display: none}
+  .sites              { width: 80% }
+  .col                { width: 50% }
+  .f1                 { width: 95%!important }
+  .top                { display: none }
+  .resume             { margin-top: 14vh }
+  .me                 { width: 132px }
+  .fa-5x              { font-size: 4em!important }
+}
+
+@media (min-width:1025px) and (max-width:1279px) {
+  #About p            { font-size: 1.75em!important }
+  #about-me           { height: auto!important}
+  .centered-wrapper   { width: 96% !important; margin-top: 4vh }
+  .centered-wrapper p { font-size: 1.5em!important }
+  .box-desc p         { font-size: 1em !important }
+  .code-desc p        { font-size: 0.7em !important }
+  .portfolio          { margin-top: 21vh }
+  .double-space       { display: block;}
+  .me                 { width: 132px }
+  .fa-5x              { font-size: 4em!important }
+}
+
+@media (min-width:1280px) {
+  #about-me           { height: auto!important }
+
+  .centered-wrapper   { width: 1250px !important;margin-top: 5vh }
+  .portfolio          { margin-top: 21vh }
+  .centered-wrapper p { font-size: 1.8em!important }
+  .double-space       { display: block;}
+}
